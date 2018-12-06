@@ -1,0 +1,47 @@
+ul {
+	list-style-type: none;
+	margin: 10px;
+	font-size: 14px;
+}
+
+h2 {
+	color: blue;
+}
+
+h3 {
+	color: red;
+	font-size: 2em;
+}
+
+h4{
+	color: grey;
+	font-size: 14px;
+}
+
+.List-Item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*justify-content: center;*/
+	justify-content: space-between;
+
+	padding-left: 30%;
+	padding-right: 30%;
+
+	margin: 10px;
+}
+
+.Tags {
+	display: flex;
+	justify-content: center;
+/*	display: flex;
+	justify-content: space-between;
+	padding-left: 45%;
+	padding-right: 45%;*/
+}
+
+img {
+
+	max-height: 80px;
+	max-width: 80px;
+}
